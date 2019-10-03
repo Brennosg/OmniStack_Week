@@ -1,5 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
+const path = require('path');
 
 const routes = require('./routes');
 
@@ -19,7 +21,9 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-p9xfj.mongodb.net/
 //search in the blog posts with Sequelize (node + SQL)
 
 //routes needs to go after express.json()
+app.use(cors());
 app.use(express.json());
+app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads')));
 app.use(routes);
 
 app.listen(3333);

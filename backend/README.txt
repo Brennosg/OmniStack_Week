@@ -8,6 +8,7 @@ Install in the project
 2 - Nodemon     ->  yarn add nodemon -D
 3 - Mongoose    ->  yarn add mongoose
 4 - Multer      ->  yarn add multer
+5 - Cors        ->  yarn add cors
 
 Obs: -D is used to flag in packjson to use only in dev environment
 
