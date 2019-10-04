@@ -9,6 +9,7 @@ Install in the project
 3 - Mongoose    ->  yarn add mongoose
 4 - Multer      ->  yarn add multer
 5 - Cors        ->  yarn add cors
+6 - Socket IO   ->  yarn add socket.io
 
 Obs: -D is used to flag in packjson to use only in dev environment
 

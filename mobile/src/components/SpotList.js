@@ -21,7 +21,7 @@ function SpotList({ tech, navigation }) {
             
             setSpots(response.data);
 
-            console.log(response.data[0].thumbnail_url);
+            // console.log(response.data[0].thumbnail_url);
         }
 
         loadSpots();

@@ -14,3 +14,6 @@ expo install react-native-gesture-handler react-native-reanimated
 
 Install AXIOS to communicate the mobile app with the backend project
 yarn add axios
+
+Install Socket.io
+yarn add socket.io-client
